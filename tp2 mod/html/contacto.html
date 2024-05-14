@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel ="stylesheet" href="../css/estilo.css" >
+    <link rel ="icon" href="../background/burj-al-arab.ico">
+    <link rel ="stylesheet" href="../arriba/fonts.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="../scripts/html5shiv.js"></script>
+    <script src="../scripts/prefixfree.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100;1,400&display=swap" rel="stylesheet">
+   
+    
+    <title>Contacto-Dubái</title>
+</head>
+<body>
+    <div class="principal">
+        
+        <!-- banner -->
+        
+        <header>
+            
+            <nav>
+                <ul>
+                    <li><a href= "../index.html" >Home</a>
+                        <ul>
+                            <li><a href="../index.html#dubai">Dubái</a></li>
+                            <li><a href="../index.html#historia">Historia</a></li>
+                            <li><a href="../index.html#ubicacion">Ubicación</a></li>
+                            <li><a href="../index.html#imagenes">Imagenes</a></li>
+                            <li><a href="../index.html#cultura">Cultura</a></li>
+                            <li><a href="../index.html#clima">Clima</a></li>
+                        </ul>
+                    </li>
+                    <li><a href= "informacion.html" >Informacion</a>
+                        <ul>
+                            <li><a href="informacion.html#antesviaje">Preparate</a></li>
+                            <li><a href="informacion.html#requisitos">Requisitos</a></li>
+                            <li><a href="informacion.html#moneda">Moneda</a></li>
+                            <li><a href="informacion.html#cuando">¿Cuando?</a></li>
+                            <li><a href="informacion.html#eventos">Eventos</a></li>
+                            <li><a href="informacion.html#innovacion">Innovación</a></li>
+                        </ul>
+                    </li>
+                    <li><a href= "itinerario.html" >Itinerario</a>
+                        <ul>
+                            <li><a href="itinerario.html#lugares">Lugares</a>
+                                <ol>
+                                    <li><a href="itinerario.html#creek">Dubái Creek</a></li>
+                                    <li><a href="itinerario.html#museo">Museo de Dubái</a></li>
+                                    <li><a href="itinerario.html#mezquita">Mezquita Jumeirah</a></li>
+                                    <li><a href="itinerario.html#khalifa">Burj Khalifa</a></li>
+                                    <li><a href="itinerario.html#fuente">Fuente de Dubái</a></li>
+                                    <li><a href="itinerario.html#arab">Burj Al Arab</a></li>
+                                </ol>
+                            </li>
+                            <li><a href="itinerario.html#actividades">Actividades</a></li>
+                        </ul>
+                    </li>
+                    <li><a href= "#" >Contacto</a></li>
+                </ul>
+            </nav>
+            
+            <h1>DUBÁI</h1>
+            
+        </header>
+        
+        <!-- Pagina -->
+
+        <main>
+            
+            <!--itinerario-->
+            <span class="ir-arriba icon-arrow-up2"></span>
+            <section>
+                
+                <h2>Personaliza tu itinerario</h2>
+
+                    <p><strong>Si estás <span>pensando en visitar Dubái y no conoces</span>, o no sabes que podes hacer cuando llegues, ¡nosotros te ayudamos!</strong><br>
+                    Completa el <span>siguiente formulario</span> para que te podamos ayudar a armar un itinerario acorde a tus expectativas para este viaje.</p>
+
+
+            </section>
+
+            <!--FORM-->
+            
+            <div>
+                
+                <form action="../html/gracias.html" method="POST" enctype="multipart/form-data">
+                    
+                    <div class="personal">
+                    <span>*Nombre:</span>
+                        <input type="text" name="nombre" autocomplete="off" required>
+                    <span>*Apellido:</span>
+                        <input type="text" name="Apellido" autocomplete="off" required>
+                    <span>*Email:</span>
+                        <input type="email" name="email" autocomplete="off" required>
+                    
+                        <div class="fecha">
+                            <span>Fecha de viaje:</span>
+                                <label for="start">Desde:</label>
+
+                                        <input type="date" id="start" name="trip-start" value="2022-11-15" min="2022-11-15" max="2024-12-01">
+                    
+                    
+                                <label for="finish">Hasta:</label>
+
+                                        <input type="date" id="finish" name="trip-finish" value="2022-11-20" min="2022-11-15" max="2024-12-15" >
+                            </div>
+                        
+                    </div>
+
+                    <div class="interes">
+                       
+                    <span>Intereses:</span>
+                        
+                        <label><input class="checkmark" type="checkbox" name="arquitectura"> Arquitectura </label>
+                        
+                        <label><input class="checkmark" type="checkbox" name="arte"> Arte </label>
+                        
+                        <label><input class="checkmark" type="checkbox" name="gastronomia"> Gastronomía </label>
+                        
+                        <label><input class="checkmark" type="checkbox" name="compras"> Compras </label>
+                        
+                        <label><input class="checkmark" type="checkbox" name="otros"> Otros </label>
+                
+
+                        <div class="comentario">
+                            <span>Agrega un comentario:</span>
+                            <textarea name="mensaje">Escriba su comentario..</textarea>
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <input type="submit" value="Enviar" id="envio" >
+                    </div>
+                    
+                    
+                </form>
+                </div>
+            
+        </main>
+
+        <!--footer-->
+        
+        <footer>
+            
+            <div class="footer">
+                
+                <div id="primero">
+                    <h2>Alumno: Nicolás firpo</h2>
+                    <p>Tp N°2 - 1 Cuatrimestre</p>
+                </div>
+                
+                <div>
+                    <h2>Profesora: Mabel García</h2>
+                    <p>Maquetado y desarrollo Web</p>
+                </div>
+                
+                <div class="politica">
+                    <ul>
+                    <li>Politicas de privacidad</li>
+                    <li>Condiciones de uso</li>
+                    </ul>
+                </div>
+                
+                <div id="redes">
+                <ul id="iconos" >
+                    <li id="fb" ><a target="_blank" href="https://www.facebook.com/places/Cosas-que-hacer-en-Dubai-ciudad/111070818917271/">Facebook</a></li>
+                    <li id="tw"><a target="_blank" href="https://twitter.com/DXBMediaOffice">Twitter</a></li>
+                    <li id="yt"><a target="_blank" href="https://www.youtube.com/watch?v=Ex2iAyaEElQ&t=39s" >YouTube</a></li>
+                    <li id="ig"><a target="_blank" href="https://www.instagram.com/dubai/">Instagram</a></li>
+                </ul>
+                
+                </div>
+           </div>
+           
+           <div id="copy">
+            <p>Copyright &#169; 2022 - Escuela Da Vinci</p>
+           </div>
+
+        </footer>
+    </div>
+    
+    
+    <script src="../scripts/boton.js"></script>
+</body>
+</html>

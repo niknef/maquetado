@@ -1,0 +1,12 @@
+colores a usar: 
+Blanco = fff
+violeta osucro = color(display-p3 0.1333333333 0.0392156863 0.2)
+    r = 0.12
+    g = 0.04
+    b = 0.18
+    a = 1
+
+rosa = #f82de8
+lila = #e36bff
+azul = #4e32fd
+negro = #0f011a

@@ -1,0 +1,27 @@
+main, nav, header, footer{display:block;}
+
+/*--------------------RESETEO--------------------*/
+* {
+    margin:0;
+    padding:0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img , picture, video , iframe, figure{
+    max-width:100%
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2 , h3 , h4 , h5 , h6 , p , span , a , strong , blockquote , em{
+    font-size: 1em;
+    font-weight:  inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: var(--principal-color);
+}
+
+/*--------------------GENERAL--------------------*/
